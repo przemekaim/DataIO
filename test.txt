@@ -1,0 +1,9 @@
+Carl Cracker,75000.0,1987-12-15
+Hary Hacker,50000.0,1989-10-01
+Tony Tester,40000.0,1990-03-15
+Carl Cracker,75000.0,1987-12-15
+Hary Hacker,50000.0,1989-10-01
+Tony Tester,40000.0,1990-03-15
+Carl Cracker,75000.0,1987-12-15
+Hary Hacker,50000.0,1989-10-01
+Tony Tester,40000.0,1990-03-15
