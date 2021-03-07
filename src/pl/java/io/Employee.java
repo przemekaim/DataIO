@@ -1,11 +1,11 @@
 package pl.java.io;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Employee {
+public class Employee extends SerialCloneable implements Serializable {
     public static final int NAME_SIZE = 40;
     public static final int RECORD_SIZE = 2 * NAME_SIZE + 8 + 4 + 4 + 4;
-
 
     private String name;
     private double salary;
@@ -33,7 +33,7 @@ public class Employee {
     }
 
     public void raiseSalary(double byPercent) {
-        double raise = salary * byPercent;
+        double raise = salary * byPercent / 100;
         salary += raise;
     }
 
